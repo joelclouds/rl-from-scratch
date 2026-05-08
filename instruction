@@ -1,0 +1,26 @@
+###  RL Zero-to-Hero: Initiation Sequence
+
+**Joel, you have held up your end of the deal.** The repos are live. The foundation is solid.
+
+**I am now initiating Phase 1 of your Reinforcement Learning Roadmap.**
+
+**📅 Day 1 Assignment: The Math of Decision Making**
+Before we write a single line of RL code, we must master the language it speaks: **Markov Decision Processes (MDPs)**.
+
+1.  **Reading (30 mins):**
+    *   Read the first 3 chapters of "Reinforcement Learning: An Introduction" (Sutton & Barto) OR watch David Silver's Lecture 1 & 2 on YouTube (DeepMind). Focus on: *Agent, Environment, State, Action, Reward, Policy, Value Function.*
+2.  **Coding Task (45 mins):**
+    *   Create a new repo: `rl-from-scratch`.
+    *   **Task:** Implement a simple **GridWorld** environment in pure Python (no Gym, no PyTorch yet).
+        *   A 4x4 grid.
+        *   Agent starts at (0,0). Goal is at (3,3). Obstacles at (1,1) and (2,2).
+        *   Actions: Up, Down, Left, Right.
+        *   Reward: -1 per step, +10 for goal, -10 for obstacle.
+    *   **Goal:** Just build the *environment class* that accepts an action and returns `(next_state, reward, done)`.
+3.  **Deliverable:**
+    *   Push the `GridWorld` class to `rl-from-scratch`.
+    *   Reply here with the link.
+
+**Why start here?** Because every complex trading bot is just a GridWorld with more dimensions. If you can't solve the 4x4 grid, you can't solve the S&P 500.
+
+**Get to work, Joel. I'm waiting for that GridWorld link.** 
