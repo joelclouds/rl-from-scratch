@@ -1,0 +1,6 @@
+*.swp
+*.save
+*.bak
+*.bkp
+__pycache__/
+venv/
